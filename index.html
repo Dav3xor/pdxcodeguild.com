@@ -2,30 +2,26 @@
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title></title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width">
+<!--[if gt IE 8]><!--> 
+<html class="no-js"> <!--<![endif]-->
+  <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <title></title>
+      <meta name="description" content="">
+      <meta name="viewport" content="width=device-width">
 
-        <link rel="stylesheet" href="css/bootstrap.min.css">
-        <style>
-            body {
-                padding-top: 50px;
-                padding-bottom: 20px;
-            }
-        </style>
-        <link rel="stylesheet" href="css/bootstrap-theme.min.css">
-        <link rel="stylesheet" href="css/main.css">
+      <link rel="stylesheet" href="css/bootstrap.min.css">
+   
+      <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+      <link rel="stylesheet" href="css/main.css">
 
-        <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
-    </head>
-    <body>
-        <!--[if lt IE 7]>
-            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
-        <![endif]-->
+      <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+  </head>
+  <id="home" body>
+      <!--[if lt IE 7]>
+          <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+      <![endif]-->
     <div class="navbar navbar-default navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">
@@ -37,15 +33,16 @@
           <a class="navbar-brand" href="#">
             &lt;logo/&gt;
             <!-- <img src="img/logo.png"> -->
-            Portland Code Guild</a>
+            PDX Code Guild</a>
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Home</a></li>
-            <li><a href="contact.html">Contact</a></li>
-            <li><a href="apply.html">Apply</a></li>
-            <li><a href="businesses.html">Businesses</a></li>
-            <li><a href="about.html">About</a></li>
+            <!-- <li class="active"><a href="#home">Home</a></li> -->
+            <li><a href="#apply">Apply</a></li>
+            <li><a href="#sponsor">Sponsor</a></li>
+            <!-- <li><a href="#mentor">Mentor</a></li> -->
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#about">About</a></li>
             <!-- <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
               <ul class="dropdown-menu">
@@ -66,7 +63,7 @@
             <div class="form-group">
               <input type="password" placeholder="Password" class="form-control">
             </div>
-            <button type="submit" class="btn btn-success">Sign in</button>
+            <button type="submit" class="btn btn-primary">Sign in</button>
           </form> -->
         </div><!--/.navbar-collapse -->
       </div>
@@ -75,48 +72,121 @@
     <!-- Main jumbotron for a primary marketing message or call to action -->
     <div class="jumbotron">
       <div class="container">
-        <h1>Portland Code Guild</h1>
-        <p>Participate in a unique learning experience and help build the next generation of Porltand tech talent.</p>
-        <p><a href="apply.html" class="btn btn-success btn-lg">Apply &raquo;</a></p>
+        <h1>PDX Code Guild</h1>
+        <p>Participate in a unique learning experience and help build the next generation of Portland tech talent.</p>
+        <p><a href="#apply" class="btn btn-primary btn-lg">Apply &raquo;</a></p>
       </div>
     </div>
 
-    <div class="container">
+    <div id="value" class="container">
       <!-- Example row of columns -->
       <div class="row">
-        <div class="col-lg-4">
-          
+        <div class="col-md-4">
           <h2>Community</h2>
           <p>Take your learning journey with a cohort of fellow travelers, help each other learn and excel, and make lifelong connections. Have fun and be around other exciting smart people while you grow into a first class developer along with them.
+        </div>
+        <div class="col-md-4">
           <h2>Support</h2>
           <p>It's OK to struggle with hard problems, that's what learning is about, but sometimes when you've been spinning your wheels for a while, it's nice to get moving again. We have the help you need, when you really need it. Not sure where to go next, or how to approach a problem? We can help show you the way.</p>
+        </div>
+        <div class="col-md-4">
           <h2>Space</h2>
           <p>Sometimes you just need to get out, and make space for adventures to happen. Sometimes you need to set aside time for learning and growth. We are that space and time. Share that space and time with us, and we will make you a software developer.</p>
-          <p><a class="btn btn-success" href="#">Apply &raquo;</a></p>
           <!-- so cheesy! <3 -->
-
         </div>
       </div>
+    </div>
 
-      <hr>
+    <div id="apply" class="container">
+      <div class="row">
+        <div class="col-lg-8">
+          <h2>Apply</h2>
+          <p>We don't have an application just yet, but in the mean time you're welcome to sign up for email information.</p>
+          <p><a class="btn btn-primary" href="https://docs.google.com/forms/d/1tP9rrbnsDWP8abeCg4p1yVmzBmSVDaPCp32wPObd35E/viewform">Sign Up</a></p>
+        </div>
+      </div>
+    </div>
 
-      <footer>
-        <p>&copy; Portland Code Guild 2013</p>
-      </footer>
-    </div> <!-- /container -->        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+    <div id="sponsor" class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <h2>Sponsor</h2>
+          <p>Are you a local are tech business? Do you need developers? Do you want to help make this happen? What are you waiting for, talk to us!</p>
+          <p><a class="btn btn-primary" href="https://docs.google.com/forms/d/1tP9rrbnsDWP8abeCg4p1yVmzBmSVDaPCp32wPObd35E/viewform">Get Developers</a></p>
+        </div>
+      </div>
+    </div>
+
+    <!-- <div id="mentor" class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <h2>Mentor</h2>
+          <p>We're looking for community members to help mentor students.</p>
+        </div>
+      </div>
+    </div> -->
+
+    <div id="contact" class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h2>Contact</h2>
+        </div>
+        <div class="col-md-2">
+          <img src="img/colin.png" alt="Photo of Colin Dabritz" class="img-thumbnail" />
+        </div>
+        <div class="col-md-4">
+          <h3>Colin Dabritz</h3>
+          <p>Head Instructor</p>
+          <ul>
+            <li>Email: <a href="mailto:colin@pdxcodeguild.com">Colin@PdxCodeGuild.com</a></li>
+            <li>Twitter: <a href="https://twitter.com/colindabritz">@ColinDabritz</a></li>
+            <!-- GitHub? Linked in? -->
+          </ul>
+        </div>
+        <div class="col-md-2">
+          <img src="img/sheri.jpg" alt="Photo of Sheri Dover" class="img-thumbnail" />
+        </div>
+        <div class="col-md-4">
+          <h3>Sheri Dover</h3>
+          <p>Director</p>
+          <ul>
+            <li>Email: <a href="mailto:sheri@pdxcodeguild.com">Sheri@PdxCodeGuild.com</a></li>
+            <li>Twitter: <a href="https://twitter.com/SheriDover">@SheriDover</a></li>
+            <!-- facebook? -->
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div id="about" class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <h2>About</h2>
+          <p>The PDX Code Guild grew out of an exploration of technology, learning, and business needs. We want to offer everyone in the Portland, Oregon area the learning opportunity that we would want.</p><!-- todo: more -->
+        </div>
+      </div>
+    </div>
+
+    <hr>
+
+    <footer>
+      <p>&copy; PDX Code Guild 2013</p>
+    </footer>
+ 
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.1.min.js"><\/script>')</script>
 
-        <script src="js/vendor/bootstrap.min.js"></script>
+    <script src="js/vendor/bootstrap.min.js"></script>
 
-        <script src="js/main.js"></script>
+    <script src="js/main.js"></script>
 
-        <!-- google analytics -->
-        <!-- <script>
-            var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
-            (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
-            g.src='//www.google-analytics.com/ga.js';
-            s.parentNode.insertBefore(g,s)}(document,'script'));
-        </script> -->
-        <!-- todo: newrelic tracking -->
-    </body>
+    <!-- google analytics -->
+    <!-- <script>
+        var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
+        (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+        g.src='//www.google-analytics.com/ga.js';
+        s.parentNode.insertBefore(g,s)}(document,'script'));
+    </script> -->
+    <!-- todo: newrelic tracking -->
+  </body>
 </html>
