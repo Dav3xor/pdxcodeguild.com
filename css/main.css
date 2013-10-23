@@ -31,5 +31,10 @@ body{
 	text-align: center;
 	margin: 0px;
 	padding: 10px;
+
+}
+
+#front_page_notice {
+  background-color: #FFB347;
 }
 
